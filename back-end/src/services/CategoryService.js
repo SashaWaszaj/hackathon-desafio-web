@@ -1,6 +1,6 @@
 const axios = require('axios');
 require('dotenv').config();
-const CategoryModel = require('../models/CategoryModel.js');
+const CategoryModel = require('../models/CategoryModel');
 
 class CategoryService {
     static async createCategory(category) {
