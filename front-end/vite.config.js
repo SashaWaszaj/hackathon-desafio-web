@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: 'localhost',
-    port: 3001,
+    port: 5001,
     open: true,
     hmr: {
       overlay: true,
